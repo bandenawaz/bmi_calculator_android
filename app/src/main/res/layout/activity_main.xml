@@ -9,5 +9,63 @@
     android:gravity="center">
 
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/bmi_logo"
+        android:layout_marginTop="30dp"/>
 
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Enter your Height in cm"
+        android:inputType="number"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Enter your Weight in kg"
+        android:inputType="number"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="32dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="TextView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fit_guy"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"/>
 </LinearLayout>
